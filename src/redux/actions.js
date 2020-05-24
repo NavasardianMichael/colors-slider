@@ -1,4 +1,4 @@
-import { ADD_NEW_COLOR, ADD_NEW_IMG_URL, ADD_NEW_IMG_FILE, ADD_NEW_ITEM, REMOVE_COLOR, REMOVE_IMG, REMOVE_ITEM } from './types';
+import { ADD_NEW_COLOR, ADD_NEW_IMG_URL, ADD_NEW_ITEM, REMOVE_COLOR, REMOVE_IMG, REMOVE_ITEM } from './types';
 
 export function addNewItemToSlide(newItem) {
 	return {
@@ -50,10 +50,16 @@ export function addNewColorToSlide(newColor) {
 	}
 }
 
-export function addNewImgUrlToSlide(newImgUrl) {
+export function addNewImgUrlToSlide(newImgUrl, imgType) {
 	return function(dispatch) {
-		dispatch(addNewImgUrl(newImgUrl));
-		dispatch(addNewItemToSlide(newImgUrl));
+		if (imgType === 'file') {
+			dispatch(addNewImgUrl(newImgUrl));
+			dispatch(addNewItemToSlide(newImgUrl));			
+		} else if(imgType === 'url') {
+			var url = `https://source.unsplash.com/random/${Math.ceil(Math.random()*10)}`;
+			dispatch(addNewImgUrl(url));
+			dispatch(addNewItemToSlide(url));
+		}
 	}
 }
 

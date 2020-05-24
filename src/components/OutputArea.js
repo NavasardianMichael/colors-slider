@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import { useStore } from 'react-redux';
+import React from 'react';
 import {connect} from 'react-redux';
 import Carousel from 'react-bootstrap/Carousel';
 import './slider.css';
@@ -10,7 +9,7 @@ function OutputArea(props) {
 		return (
 				(item.indexOf('#') === 0) ?
 					<Carousel.Item key={`colorItem${item}`}><div className="border" style={{backgroundColor: item, height: 500}}></div></Carousel.Item> :
-					<Carousel.Item key={`imgItem${item}`} className="text-center border"><img src={item} style={{height: 500}}/></Carousel.Item>
+					<Carousel.Item key={`imgItem${item}`} className="text-center border"><img src={item} width="100%" style={{height: 500}} alt={item}/></Carousel.Item>
 			)
 	})
 	

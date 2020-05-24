@@ -4,7 +4,7 @@ import ImgChooseArea from './ImgChooseArea';
 
 function ChooseArea() {
 	return (
-		<div className="my-3 choose-area">
+		<div className="choose-area">
 			<div className="row mt-2">
 				<div className="col my-2">
 					<ColorChooseArea />

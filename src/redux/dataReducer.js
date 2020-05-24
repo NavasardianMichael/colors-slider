@@ -3,7 +3,6 @@ import { ADD_NEW_COLOR, ADD_NEW_IMG_URL, ADD_NEW_IMG_FILE, ADD_NEW_ITEM, REMOVE_
 const initialState = {
 	selectedColors: [],
 	selectedImagesUrl: [],
-	selectedImagesFiles: [],
 	itemsToShow: []
 }
 

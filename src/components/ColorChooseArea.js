@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useDispatch, connect } from 'react-redux';
-import ColorItemToChoose from './ColorItemToChoose';
 import { addNewColorToSlide, removeColorFromSlide } from '../redux/actions';
 
 function ColorChooseArea(props) {
@@ -29,7 +28,7 @@ function ColorChooseArea(props) {
 			<div className="choose-color-area">
 				  <div className="form-group row">
 				    	<div className="col-md-3 my-auto">
-				    		<label>Choose color: </label>
+				    		<label>Choose a color: </label>
 				    	</div>
 				    	<div className="col">
 				    		<input className="form-control" type="color" value={currentColor} onChange={addColorHandler}/>
