@@ -1,0 +1,7 @@
+export const ADD_NEW_COLOR = 'DATA/ADD_NEW_COLOR';
+export const ADD_NEW_IMG_URL = 'DATA/ADD_NEW_IMG_URL';
+export const ADD_NEW_IMG_FILE = 'DATA/ADD_NEW_IMG_FILE';
+export const ADD_NEW_ITEM = 'DATA/ADD_NEW_ITEM';
+export const REMOVE_COLOR = 'DATA/REMOVE_COLOR';
+export const REMOVE_IMG = 'DATA/REMOVE_IMG';
+export const REMOVE_ITEM = 'DATA/REMOVE_ITEM';
