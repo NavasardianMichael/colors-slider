@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/colors-slider/static/css/main.393117e9.chunk.css",
+    "main.js": "/colors-slider/static/js/main.38be7f43.chunk.js",
+    "main.js.map": "/colors-slider/static/js/main.38be7f43.chunk.js.map",
+    "runtime-main.js": "/colors-slider/static/js/runtime-main.abda71f3.js",
+    "runtime-main.js.map": "/colors-slider/static/js/runtime-main.abda71f3.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/colors-slider/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.a26334af.chunk.js": "/colors-slider/static/js/2.a26334af.chunk.js",
+    "static/js/2.a26334af.chunk.js.map": "/colors-slider/static/js/2.a26334af.chunk.js.map",
+    "index.html": "/colors-slider/index.html",
+    "precache-manifest.889c6dd75ef773d3c60652abb48a330e.js": "/colors-slider/precache-manifest.889c6dd75ef773d3c60652abb48a330e.js",
+    "service-worker.js": "/colors-slider/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/colors-slider/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.393117e9.chunk.css.map": "/colors-slider/static/css/main.393117e9.chunk.css.map",
+    "static/js/2.a26334af.chunk.js.LICENSE.txt": "/colors-slider/static/js/2.a26334af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abda71f3.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.a26334af.chunk.js",
+    "static/css/main.393117e9.chunk.css",
+    "static/js/main.38be7f43.chunk.js"
+  ]
+}
